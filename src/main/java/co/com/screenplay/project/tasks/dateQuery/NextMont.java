@@ -1,19 +1,20 @@
-package co.com.screenplay.project.tasks;
+package co.com.screenplay.project.tasks.dateQuery;
 
 import co.com.screenplay.project.ui.QueryUI;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
-import net.serenitybdd.screenplay.actions.Switch;
+import net.serenitybdd.screenplay.actions.Click;
 
+public class NextMont implements Task {
 
-public class IframeChange implements Task {
 
     @Override
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
-                Switch.toFrame(QueryUI.IFRAME_CALENDAR.resolveFor(actor))
+                Click.on(QueryUI.NEXT_MONTH)
         );
     }
 
-
 }
+
+

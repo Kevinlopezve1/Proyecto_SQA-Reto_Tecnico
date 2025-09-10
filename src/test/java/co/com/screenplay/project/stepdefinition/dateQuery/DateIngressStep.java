@@ -1,7 +1,7 @@
-package co.com.screenplay.project.stepdefinition;
+package co.com.screenplay.project.stepdefinition.dateQuery;
 
 import co.com.screenplay.project.questions.ValidateDatesQuestions;
-import co.com.screenplay.project.tasks.DateIngress;
+import co.com.screenplay.project.tasks.dateQuery.DateIngress;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;

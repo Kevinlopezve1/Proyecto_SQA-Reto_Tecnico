@@ -1,4 +1,4 @@
-package co.com.screenplay.project.tasks;
+package co.com.screenplay.project.tasks.dateQuery;
 
 import co.com.screenplay.project.ui.QueryUI;
 import net.serenitybdd.screenplay.Actor;

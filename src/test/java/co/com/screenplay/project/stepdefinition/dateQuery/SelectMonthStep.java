@@ -1,7 +1,7 @@
-package co.com.screenplay.project.stepdefinition;
+package co.com.screenplay.project.stepdefinition.dateQuery;
 
-import co.com.screenplay.project.tasks.NextMont;
-import co.com.screenplay.project.tasks.SelectDay;
+import co.com.screenplay.project.tasks.dateQuery.NextMont;
+import co.com.screenplay.project.tasks.dateQuery.SelectDay;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.Then;
 import net.serenitybdd.screenplay.actors.OnStage;

@@ -10,6 +10,4 @@ public class Constants {
 
     public static final int TIME_SHORT = 5;
 
-    public static final String TITTLE = "Datepicker | jQuery UI";
-
 }
